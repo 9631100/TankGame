@@ -1,8 +1,8 @@
 class Obstacle {
   //Member Variable
   float x, y, w, h, speed, health;
-  //PImage iTankW
-    char idir;
+  //PImage obs1;
+  char idir;
 
   // Constructor
   Obstacle(float x, float y, float w, float h, float speed, float health) {
@@ -11,7 +11,7 @@ class Obstacle {
     this.x = w;
     this.x = h;
     this.x = speed;
-    this.x = health;
+    this.health = health;
     idir = 'w';
   }
 
